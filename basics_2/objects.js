@@ -1,5 +1,5 @@
 //study object singleton and object literals
-//just for push
+
 
 const mySym = Symbol("key1")
 
