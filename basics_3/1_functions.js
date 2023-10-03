@@ -18,3 +18,9 @@ function addTwoNumbers (number1, number2) {
  }
 
  console.log(loginUserMessage("vgod"));
+
+ function calculateShopping(...num1) {
+
+ }
+
+ // ... three dots are rest operator which bundle the values together and return an array.
