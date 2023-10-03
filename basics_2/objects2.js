@@ -25,3 +25,16 @@ const obj3 = Object.assign({}, obj1, obj2)
 console.log(obj3);
 
 //can use {...obj1, ...obj2} as well to spread and merge objects
+
+//example of object destructuring
+const course = {
+    course: "js",
+    price: 999,
+    courseInstructor: "ved"
+
+
+}
+
+
+const {courseInstructor} = course;
+console.log(courseInstructor);
