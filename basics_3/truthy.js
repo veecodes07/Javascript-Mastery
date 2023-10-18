@@ -16,3 +16,10 @@ if (Object.keys(emptyObj).length === 0) {
 // val1 = undefined ?? 5
 
 // console.log(" val1");
+
+// terniary operator
+
+// condition ? true : false
+
+// const coffee = 100
+// coffee >= 100 ? console.log("less than "): console.log("more than");
