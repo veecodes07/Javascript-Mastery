@@ -1,12 +1,8 @@
-# codespaces-js-revision
-
-# Project Title
-
-
+# Javascript-Mastery
 
 This is a basic and raw Javascript revision repo for a quick revise for future uses.
-
  It moves from basic to advanced Javascript.
+
 ## Contributing
 
 Contributions are always welcome!
