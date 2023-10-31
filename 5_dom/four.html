@@ -20,5 +20,21 @@
 
     addLanguage("python")
     addLanguage("ts")
+
+    //EDIT
+    const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang);
+    secondLang.innerHTML = "MOJO"
+    const newli = document.createElement("li")
+    newli.textContent = 'Mojo'
+    secondLang.replaceWith(newli)
+
+    //edit
+    const firstLang = document.querySelector("li:nth child")
+    firstLang.outerHTML= "<li>Ts</li>"
+
+    ///remove
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove() 
 </script>
 </html>
