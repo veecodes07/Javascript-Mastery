@@ -20,3 +20,24 @@ setTimeout(function(){
 ).then(function(user){
     console.log(user)
 })
+
+const promiseFour = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        let error = true;
+        if(!error){
+            resolve({username: "vgod", email: "vgod.com"}
+            )
+        } else{
+            reject('error')
+        }
+    }, 1000)
+})
+
+promiseFour.then((user) => {
+    console.log(user);
+    return user.username
+}).then((username) => {
+    console.log(username);
+}).catch((error) => {
+    console.log(error)
+})
